@@ -1,5 +1,6 @@
 baseURL = 'https://arunta.co.in'
 languageCode = 'en-us'
+defaultContentLanguage = 'en'
 title = 'Deep N Wide'
 theme = "PaperMod"
 googleAnalytics = 'G-E5SKNTC5DT' # <--- Replace with your ID once found
@@ -8,6 +9,9 @@ googleAnalytics = 'G-E5SKNTC5DT' # <--- Replace with your ID once found
     home = ["HTML", "RSS", "JSON"]
 
 [params]
+    description = "Deep N Wide - Thoughts on technology, music, spirituality and everything else by Arun T Anandhakrishnan."
+    keywords = ["Blog", "Spirituality", "Technology", "Music", "Arun T Anandhakrishnan", "Arun T A"]
+
     # This disables the "feature" styling for the first post
     mainSections = ["posts"]
     
@@ -60,12 +64,14 @@ googleAnalytics = 'G-E5SKNTC5DT' # <--- Replace with your ID once found
     identifier = "facebook"
     name = "Facebook"
     url = "https://www.facebook.com/arun.t.anandhakrishnan"
+    title = "Facebook" # PaperMod uses this as the ARIA label
     weight = 10
 
 [[menu.main]]
     identifier = "instagram"
     name = "Instagram"
     url = "https://www.instagram.com/arun.t.anandhakrishnan/"
+    title = "Instagram"
     weight = 20
     
 [[menu.main]]
