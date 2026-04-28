@@ -9,11 +9,12 @@
     <lastBuildDate>Mon, 27 Apr 2026 09:02:59 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post</title>
-      <link>http://localhost:1313/posts/first-post/</link>
+      <title>Moving from Wordpress to Hugo and GitHub</title>
+      <link>http://localhost:1313/posts/2016/first-post/</link>
       <pubDate>Mon, 27 Apr 2026 09:02:59 +0530</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
-      <description>&lt;p&gt;Hello world 🚀&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/2016/first-post/</guid>
+      <description>&lt;p&gt;Well, I update this blog once in a while - not more than a dozen times in an year. So it is overkill to use a standalone hosting paying INR 4000 for a WP hosting in popular sites. Yeah&amp;hellip;they all start with less than INR 100 per month but jumps to INR 300 per month upon renewal. Typical trap for customers&amp;hellip;&lt;/p&gt;
+&lt;p&gt;I hope this will go on well. Let me end this post with an image I generated for some personal projects&amp;hellip; :-)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
