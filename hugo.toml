@@ -8,23 +8,39 @@ googleAnalytics = 'G-E5SKNTC5DT' # <--- Replace with your ID once found
     home = ["HTML", "RSS", "JSON"]
 
 [params]
-    images = ["/images/arunta-profile.jpg"] # Shows this image in link previews
+    # This disables the "feature" styling for the first post
+    mainSections = ["posts"]
+    
+    # Add this line to force all posts to look like regular entries
+    displayFullContent = false 
 
-    # 1. Custom Copyright & Footer Cleanup
+    # Shows this image in link previews
+    images = ["/images/arunta-profile.jpg"] 
+
+    # Shows the tags at the bottom of each post
+    ShowPostNavLinks = true
+
+    # Allows users to click tags to see all related posts
+    showFullTextContent = false 
+
+    # Custom Copyright & Footer Cleanup
     copyright = "© 2024 Arun T Anandhakrishnan"
-    disableFinishedParsingByHugo = true # Hides "Powered by Hugo"
 
-    # 2. Back to Top Button
+    disableFinishedParsingByHugo = true # Hides "Powered by Hugo"
+    
+    hideFooter = false
+
+    # Back to Top Button
     ShowScrollToTop = true 
 
-    # 3. Favicon (Place favicon.png in static/ folder)
+    # Favicon (Place favicon.png in static/ folder)
     [params.assets]
         favicon = "/favicon.png"
         favicon16x16 = "/favicon.png"
         favicon32x32 = "/favicon.png"
         apple_touch_icon = "/favicon.png"
 
-    # 4. Profile Label
+    # Profile Label
     [params.label]
         text = "Deep N Wide"
         icon = "/images/arunta-profile.jpg"
@@ -33,7 +49,7 @@ googleAnalytics = 'G-E5SKNTC5DT' # <--- Replace with your ID once found
     [params.profileMode]
         enabled = false
 
-# 5. Top Navigation Menu (MUST be outside of [params])
+# Top Navigation Menu (MUST be outside of [params])
 [[menu.main]]
     identifier = "search"
     name = "Search"
@@ -52,3 +68,20 @@ googleAnalytics = 'G-E5SKNTC5DT' # <--- Replace with your ID once found
     url = "https://www.instagram.com/arun.t.anandhakrishnan/"
     weight = 20
     
+[[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 2  # Moves it to the left side of the menu
+
+[[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "archive"
+    name = "Archive"
+    url = "/archives/"
+    weight = 1

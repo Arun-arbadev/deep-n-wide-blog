@@ -11,14 +11,21 @@
     </image>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Apr 2026 09:02:59 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 28 Apr 2027 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to Deep N Wide</title>
+      <link>http://localhost:1313/posts/2016/announcement/</link>
+      <pubDate>Tue, 28 Apr 2026 10:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2016/announcement/</guid>
+      <description>The very first post on Deep N Wide.</description>
+    </item>
     <item>
       <title>Moving from Wordpress to Hugo and GitHub</title>
       <link>http://localhost:1313/posts/2016/first-post/</link>
-      <pubDate>Mon, 27 Apr 2026 09:02:59 +0530</pubDate>
+      <pubDate>Mon, 27 Apr 2026 10:00:00 +0530</pubDate>
       <guid>http://localhost:1313/posts/2016/first-post/</guid>
-      <description>&lt;p&gt;Well, I use to update this blog once in a while - not more than a dozen times in an year. So it is overkill to use a standalone hosting and pay INR 4000+ for a WP blog in any of those popular hosting sites. Yeah&amp;hellip;they all start their plans with less than INR 100 per month for their hosting but jumps to INR 300 per month upon renewal. Typical trap for customers&amp;hellip;&lt;/p&gt;</description>
+      <description>Moving from WP to Hugo</description>
     </item>
   </channel>
 </rss>

@@ -11,6 +11,28 @@
     </image>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 28 Apr 2027 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
+      <pubDate>Tue, 28 Apr 2026 10:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New-Beginnings</title>
+      <link>http://localhost:1313/tags/new-beginnings/</link>
+      <pubDate>Tue, 28 Apr 2026 10:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/new-beginnings/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Welcome</title>
+      <link>http://localhost:1313/tags/welcome/</link>
+      <pubDate>Tue, 28 Apr 2026 10:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/welcome/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

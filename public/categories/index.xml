@@ -11,6 +11,14 @@
     </image>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 28 Apr 2027 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcements</title>
+      <link>http://localhost:1313/categories/announcements/</link>
+      <pubDate>Tue, 28 Apr 2026 10:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/categories/announcements/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
