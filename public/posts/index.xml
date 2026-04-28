@@ -4,6 +4,11 @@
     <title>Posts on Deep N Wide</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Deep N Wide</description>
+    <image>
+      <title>Deep N Wide</title>
+      <url>http://localhost:1313/images/arunta-profile.jpg</url>
+      <link>http://localhost:1313/images/arunta-profile.jpg</link>
+    </image>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2026 09:02:59 +0530</lastBuildDate>

@@ -4,6 +4,11 @@
     <title>Tags on Deep N Wide</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Deep N Wide</description>
+    <image>
+      <title>Deep N Wide</title>
+      <url>http://localhost:1313/images/arunta-profile.jpg</url>
+      <link>http://localhost:1313/images/arunta-profile.jpg</link>
+    </image>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />

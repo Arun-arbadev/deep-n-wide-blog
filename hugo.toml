@@ -8,6 +8,8 @@ googleAnalytics = 'G-E5SKNTC5DT' # <--- Replace with your ID once found
     home = ["HTML", "RSS", "JSON"]
 
 [params]
+    images = ["/images/arunta-profile.jpg"] # Shows this image in link previews
+
     # 1. Custom Copyright & Footer Cleanup
     copyright = "© 2024 Arun T Anandhakrishnan"
     disableFinishedParsingByHugo = true # Hides "Powered by Hugo"
@@ -18,6 +20,9 @@ googleAnalytics = 'G-E5SKNTC5DT' # <--- Replace with your ID once found
     # 3. Favicon (Place favicon.png in static/ folder)
     [params.assets]
         favicon = "/favicon.png"
+        favicon16x16 = "/favicon.png"
+        favicon32x32 = "/favicon.png"
+        apple_touch_icon = "/favicon.png"
 
     # 4. Profile Label
     [params.label]
