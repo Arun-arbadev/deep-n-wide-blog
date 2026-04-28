@@ -7,25 +7,29 @@
     object-fit: cover !important;
 }
 
-/* 1. Add borders and padding to all post entries */
-.post-entry {
-    border: 1px solid #333; /* Dark grey border */
-    border-radius: 12px;    /* Rounded corners */
-    padding: 20px;          /* Space inside the border */
-    margin-bottom: 20px !important; /* Fixes the odd vertical gap */
-    background: #1d1e20;    /* Matches your dark theme */
-    transition: transform 0.2s ease;
+/* 1. Desktop Width (Screens wider than 768px) */
+@media screen and (min-width: 768px) {
+    :root {
+        --main-width: 950px; 
+    }
 }
 
-/* 2. Hover effect to make borders pop */
-.post-entry:hover {
-    border-color: #f39c12; /* Changes border to 'Sun' orange on hover */
-    transform: translateY(-2px);
+/* 2. Mobile Behavior (Ensure no horizontal scrolling) */
+@media screen and (max-width: 767px) {
+    :root {
+        --main-width: 100%;
+    }
+    .main, .header, .footer {
+        padding: 0 15px; /* Adds a little 'breathing room' on the edges of phones */
+    }
+    .post-entry {
+        padding: 15px; /* Slightly smaller padding for small screens */
+    }
 }
 
-/* 3. Standardize the first (featured) post if not disabled in config */
-.first-entry {
-    border: 1px solid #333;
-    padding: 20px;
-    margin-bottom: 20px !important;
+/* 3. Global alignment */
+.main, .header, .footer {
+    max-width: var(--main-width);
+    margin: auto;
 }
+
