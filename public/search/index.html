@@ -5,12 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>404 Page not found | Deep N Wide</title>
+<title>Search | Deep N Wide</title>
 <meta name="keywords" content="">
-<meta name="description" content="">
+<meta name="description" content="search">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/404.html">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.babe1e7da5cf2752bc911b22e9302d709473d7a2baa5be46eb1c2969edb58c5c.css" integrity="sha256-ur4efaXPJ1K8kRsi6TAtcJRz16K6pb5G6xwpae21jFw=" rel="preload stylesheet" as="style">
+<link rel="canonical" href="http://localhost:1313/search/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a239b1ffe995d5521b86c8edf1871b5a2973d073128d6cbafd2ee7d63dd11e0b.css" integrity="sha256-ojmx/&#43;mV1VIbhsjt8YcbWilz0HMSjWy6/S7n1j3RHgs=" rel="preload stylesheet" as="style"><link crossorigin="anonymous" rel="preload" as="fetch" href="../index.json">
+<script defer crossorigin="anonymous" src="/assets/js/search.7232aeb8c34a68a38c910706ad25c530109cf409d02889cc80cba1e0c1175f4d.js" integrity="sha256-cjKuuMNKaKOMkQcGrSXFMBCc9AnQKInMgMuh4MEXX00="></script>
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -18,7 +19,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/404.html">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/search/">
 <noscript>
     <style>
         #theme-toggle,
@@ -99,7 +100,7 @@
         <ul id="menu" class="menu">
             <li>
                 <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
-                    <span>Search</span>
+                    <span class="active">Search</span>
                 </a>
             </li>
             <li>
@@ -128,7 +129,22 @@
     </nav>
 </header>
 <main class="main">
-<div class="not-found">404</div>
+
+<header class="page-header">
+    <h1>Search <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+    </h1>
+    <div class="post-meta"></div>
+</header>
+
+<div id="searchbox" class="searchbox">
+    <input id="searchInput" autofocus placeholder="Search for posts..."
+        aria-label="search" type="search" autocomplete="off" maxlength="64">
+    <ul id="searchResults" class="searchResults" aria-label="search results"></ul>
+</div>
     </main>
     
 <footer class="footer">

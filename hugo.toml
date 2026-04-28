@@ -1,4 +1,40 @@
-baseURL = 'https://arunta.co.in/'
-locale = 'en-us'
+baseURL = 'https://arunta.co.in'
+languageCode = 'en-us'
 title = 'Deep N Wide'
 theme = "PaperMod"
+
+# 1. Enable JSON output (Required for Search)
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
+[params]
+    showShareButtons = true
+    showCodeCopyButtons = true
+
+    # This adds the image next to your site title
+    [params.label]
+        text = "Deep N Wide"
+        icon = "/images/arunta-profile.jpg"
+        iconHeight = 35
+
+    [params.profileMode]
+        enabled = false
+
+# 2. Top Navigation Menu (MUST be outside of [params])
+[[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 5
+
+[[menu.main]]
+    identifier = "facebook"
+    name = "Facebook"
+    url = "https://www.facebook.com/arun.t.anandhakrishnan"
+    weight = 10
+
+[[menu.main]]
+    identifier = "instagram"
+    name = "Instagram"
+    url = "https://www.instagram.com/arun.t.anandhakrishnan/"
+    weight = 20
